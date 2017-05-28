@@ -3,8 +3,7 @@ package com.tarasevich.nikolai.generating.entity;
 /**
  * @author nikolai.tarasevich
  */
-public abstract class MapSite {
+public interface Cloneable<T> {
 
-    public abstract void enter();
-
+    T clone();
 }

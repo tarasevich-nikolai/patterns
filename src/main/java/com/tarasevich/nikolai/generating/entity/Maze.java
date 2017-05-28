@@ -6,9 +6,17 @@ import java.util.List;
 /**
  * @author nikolai.tarasevich
  */
-public class Maze {
+public class Maze implements Cloneable<Maze> {
 
-    List<Room> roomList = new ArrayList<>();
+    private List<Room> roomList = new ArrayList<>();
+
+    public Maze() {
+
+    }
+
+    public Maze(Maze other) {
+        this.roomList = other.roomList;
+    }
 
     public void addRoom(Room room) {
         roomList.add(room);
@@ -16,5 +24,10 @@ public class Maze {
 
     public Room getRoom(Integer roomNumber) {
         return roomList.get(roomNumber);
+    }
+
+    @Override
+    public Maze clone() {
+        return new Maze(this);
     }
 }

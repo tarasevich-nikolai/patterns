@@ -1,4 +1,4 @@
-package com.tarasevich.nikolai.generating.abstract_factory.entity;
+package com.tarasevich.nikolai.generating.entity.bombed;
 
 import com.tarasevich.nikolai.generating.entity.Wall;
 

@@ -1,7 +1,7 @@
 package com.tarasevich.nikolai.generating.abstract_factory;
 
-import com.tarasevich.nikolai.generating.abstract_factory.entity.EnchantedDoor;
-import com.tarasevich.nikolai.generating.abstract_factory.entity.EnchantedWall;
+import com.tarasevich.nikolai.generating.entity.enchanted.EnchantedDoor;
+import com.tarasevich.nikolai.generating.entity.bombed.EnchantedWall;
 import com.tarasevich.nikolai.generating.entity.Door;
 import com.tarasevich.nikolai.generating.entity.Room;
 import com.tarasevich.nikolai.generating.entity.Wall;
