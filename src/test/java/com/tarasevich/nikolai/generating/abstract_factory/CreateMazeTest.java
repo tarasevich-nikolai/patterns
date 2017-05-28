@@ -1,8 +1,5 @@
-package com.tarasevich.nikolai.abstract_factory;
+package com.tarasevich.nikolai.generating.abstract_factory;
 
-import com.tarasevich.nikolai.generating.abstract_factory.AbstractFactory;
-import com.tarasevich.nikolai.generating.abstract_factory.EnchantedMazeFactory;
-import com.tarasevich.nikolai.generating.abstract_factory.MazeFactory;
 import com.tarasevich.nikolai.generating.entity.*;
 import org.junit.Test;
 

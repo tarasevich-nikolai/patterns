@@ -1,12 +1,10 @@
-package com.tarasevich.nikolai.prototype;
+package com.tarasevich.nikolai.generating.prototype;
 
 import com.tarasevich.nikolai.generating.abstract_factory.AbstractFactory;
 import com.tarasevich.nikolai.generating.entity.Door;
 import com.tarasevich.nikolai.generating.entity.Maze;
 import com.tarasevich.nikolai.generating.entity.Room;
 import com.tarasevich.nikolai.generating.entity.Wall;
-import com.tarasevich.nikolai.generating.factory_method.MazeGame;
-import com.tarasevich.nikolai.generating.prototype.MazePrototypeFactory;
 import org.junit.Test;
 
 /**

@@ -1,6 +1,5 @@
-package com.tarasevich.nikolai.entity;
+package com.tarasevich.nikolai.generating.entity;
 
-import com.tarasevich.nikolai.generating.entity.*;
 import org.junit.Test;
 
 /**

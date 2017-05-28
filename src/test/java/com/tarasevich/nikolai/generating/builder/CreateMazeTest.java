@@ -1,7 +1,5 @@
-package com.tarasevich.nikolai.builder;
+package com.tarasevich.nikolai.generating.builder;
 
-import com.tarasevich.nikolai.generating.builder.MazeBuilder;
-import com.tarasevich.nikolai.generating.builder.StandardMazeBuilder;
 import com.tarasevich.nikolai.generating.entity.*;
 import org.junit.Test;
 

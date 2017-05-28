@@ -1,13 +1,11 @@
-package com.tarasevich.nikolai.singleton;
+package com.tarasevich.nikolai.generating.singleton;
 
 import com.tarasevich.nikolai.generating.abstract_factory.AbstractFactory;
 import com.tarasevich.nikolai.generating.abstract_factory.EnchantedMazeFactory;
-import com.tarasevich.nikolai.generating.abstract_factory.MazeFactory;
 import com.tarasevich.nikolai.generating.entity.Direction;
 import com.tarasevich.nikolai.generating.entity.Door;
 import com.tarasevich.nikolai.generating.entity.Maze;
 import com.tarasevich.nikolai.generating.entity.Room;
-import com.tarasevich.nikolai.generating.singleton.SingletonMazeFactory;
 import org.junit.Test;
 
 /**
