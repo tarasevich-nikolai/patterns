@@ -1,9 +1,5 @@
-package com.tarasevich.nikolai.mediator;
+package com.tarasevich.nikolai.behaviour.mediator;
 
-import com.tarasevich.nikolai.behaviour.mediator.ChatMediator;
-import com.tarasevich.nikolai.behaviour.mediator.ChatMediatorImpl;
-import com.tarasevich.nikolai.behaviour.mediator.User;
-import com.tarasevich.nikolai.behaviour.mediator.UserImpl;
 import org.junit.Test;
 
 /**
